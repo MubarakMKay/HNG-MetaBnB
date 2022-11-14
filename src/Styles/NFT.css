@@ -1,3 +1,15 @@
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 480px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+
+}
+
 .nft {
     width: 291px;
     background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
@@ -9,6 +21,9 @@
     align-items: flex-start;
     padding: 16px;
     box-sizing: border-box;
+}
+.nft > img {
+    width: 100%;
 }
 .nftTop {
     width: 100%;

@@ -1,3 +1,15 @@
+@media only screen and (min-width: 768px) {
+
+}
+
+@media only screen and (min-width: 480px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+
+}
+
 .connectWallet {
     border: 1px solid black;
     max-width: 1440px;
@@ -10,7 +22,7 @@
     height: 115vh;
     overflow: hidden;
 }
-.sectionThree .nft {
+/* .sectionThree .nft {
     background-color: rgba(64, 64, 64, 0.3);;
     
-}
+} */

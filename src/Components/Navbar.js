@@ -7,7 +7,16 @@ const Navbar = () => {
         <div className="navbar">
             <Link to={"/"}><img src={ NavbarMetaBnb } alt="MetaBnb" /></Link>
             <div className="navbarButtons">
-                <nav>
+                <nav className="navbarButtonsLarge">
+                    <ul>
+                        <li><Link to={"/"}>Home</Link></li>
+                        <li><Link to={"/place"} >Place to stay</Link></li>
+                        <li>NFTs</li>
+                        <li>Community</li>
+                    </ul>
+                </nav>
+                <nav className="navbarButtonsSmall">
+                    <span>&#9776;</span>
                     <ul>
                         <li><Link to={"/"}>Home</Link></li>
                         <li><Link to={"/place"} >Place to stay</Link></li>
