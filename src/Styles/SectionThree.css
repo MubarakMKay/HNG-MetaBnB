@@ -1,0 +1,25 @@
+.sectionThree {
+    width: 86%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 58px 7% 53px 7%;
+}
+.sectionThree h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000000;
+}
+.sectionThreeNFTs {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    column-gap: 24px;
+    align-items: center;
+    margin-top: 43px;
+}

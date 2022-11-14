@@ -1,0 +1,16 @@
+.connectWallet {
+    border: 1px solid black;
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    background-color: rgba(64, 64, 64, 0.3);;
+    height: 115vh;
+    overflow: hidden;
+}
+.sectionThree .nft {
+    background-color: rgba(64, 64, 64, 0.3);;
+    
+}

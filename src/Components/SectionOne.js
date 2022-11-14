@@ -1,3 +1,4 @@
+import "../Styles/SectionOne.css"
 import ImageOne from "../Assets/SectionOneImageOne.png";
 import ImageTwo from "../Assets/SectionOneImageTwo.png";
 import ImageThree from "../Assets/SectionOneImageThree.png";

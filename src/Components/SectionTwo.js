@@ -1,3 +1,4 @@
+import "../Styles/SectionTwo.css"
 import MBToken from "../Assets/SectionTwoMBToken.svg";
 import MetaMask from "../Assets/SectionTwoMetaMask.svg";
 import OpenSea from "../Assets/SectionTwoOpenSea.svg";

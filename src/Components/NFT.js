@@ -1,3 +1,4 @@
+import "../Styles/NFT.css"
 import NFTStar from "../Assets/NFTStar.png";
 
 const NFT = (props) => {

@@ -1,3 +1,4 @@
+import "../Styles/SectionFour.css"
 import SectionFourImage from "../Assets/SectionFourImage.png";
 
 const SectionFour = () => {
@@ -6,7 +7,7 @@ const SectionFour = () => {
             <div className="sectionFourText">
                 <h1>Metabnb NFTs</h1>
                 <p>Discover our NFT gift cards collection. Loyal<br />customers gets amazing gift cards which are<br />traded as NFTs. These NFTs gives our cutomer<br />access to loads of our exclusive services.</p>
-                <input type="button" value="Learn more" />
+                <span><input type="button" value="Learn more" /></span>
             </div>
             <div className="sectionFourImage">
                 <img src={SectionFourImage} alt="NFTs" />

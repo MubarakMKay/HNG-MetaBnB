@@ -1,3 +1,4 @@
+import "../Styles/Place.css"
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 import PlaceLocation from "../Assets/PlaceLocation.svg";

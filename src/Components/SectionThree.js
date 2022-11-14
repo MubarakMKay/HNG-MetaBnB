@@ -1,3 +1,4 @@
+import "../Styles/SectionThree.css"
 import NFT from "./NFT";
 import NFTOne from "../Assets/NFTOne.png";
 import NFTTwo from "../Assets/NFTTwo.png";

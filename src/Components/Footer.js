@@ -1,3 +1,4 @@
+import "../Styles/Footer.css"
 import FooterMetaBnb from "../Assets/FooterMetaBnb.svg";
 import FooterFacebook from "../Assets/FooterFacebook.png";
 import FooterInsta from "../Assets/FooterInsta.png";
@@ -48,7 +49,10 @@ const Footer = () => {
                     <img src={ FooterInsta } alt="Instagram" />
                     <img src={ FooterTwitter } alt="Twitter" />
                 </div>
-                <span>&copy; 2022 </span>
+                <div>
+                    <span>&copy;</span>
+                    <span>2022 Metabnb</span>
+                </div>
             </div>
         </div>
      );
