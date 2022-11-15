@@ -9,19 +9,19 @@ import NFTSix from "../Assets/NFTSix.png";
 import NFTSeven from "../Assets/NFTSeven.png";
 import NFTEight from "../Assets/NFTEight.png";
 
-const SectionThree = () => {
+const SectionThree = (props) => {
     return ( 
         <div className="sectionThree">
             <h1>Inspiration for your next adventure</h1>
             <div className="sectionThreeNFTs">
-                <NFT imagee={NFTFive} />
-                <NFT imagee={NFTSix} />
-                <NFT imagee={NFTSeven} />
-                <NFT imagee={NFTEight} />
-                <NFT imagee={NFTOne} />
-                <NFT imagee={NFTTwo} />
-                <NFT imagee={NFTThree} />
-                <NFT imagee={NFTFour} />
+                <NFT imagee={NFTFive} showConnect={props.showConnect}/>
+                <NFT imagee={NFTSix} showConnect={props.showConnect}/>
+                <NFT imagee={NFTSeven} showConnect={props.showConnect}/>
+                <NFT imagee={NFTEight} showConnect={props.showConnect}/>
+                <NFT imagee={NFTOne} showConnect={props.showConnect}/>
+                <NFT imagee={NFTTwo} showConnect={props.showConnect}/>
+                <NFT imagee={NFTThree} showConnect={props.showConnect}/>
+                <NFT imagee={NFTFour} showConnect={props.showConnect}/>
             </div>
         </div>
      );

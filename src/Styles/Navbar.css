@@ -76,14 +76,10 @@
         color: #434343;
         cursor: pointer;
     }    
-    .navbarButtons > a {
-        width: 20.14%;
-        min-width: 130px;
-        height: 48px;
-    }   
     .navbarButtons input {
-        width: 100%;
-        height: 100%;
+        width: 20.14%;
+        height: 48px;
+        min-width: 130px;
         background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
         border-radius: 10px;
         font-weight: 400;
@@ -182,14 +178,10 @@
         color: #434343;
         cursor: pointer;
     }
-    .navbarButtons > a {
+    .navbarButtons input {
         width: 50%;
         min-width: 120px;
         height: 40px;
-    } 
-    .navbarButtons input {
-        width: 100%;
-        height: 100%;
         background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
         border-radius: 10px;
         font-weight: 400;
@@ -288,14 +280,10 @@
         color: #434343;
         cursor: pointer;
     }
-    .navbarButtons > a {
+    .navbarButtons input {
         width: 50%;
         min-width: 100px;
         height: 30px;
-    }  
-    .navbarButtons input {
-        width: 100%;
-        height: 100%;
         background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
         border-radius: 10px;
         font-weight: 400;

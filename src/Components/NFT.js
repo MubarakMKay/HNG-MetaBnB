@@ -2,8 +2,15 @@ import "../Styles/NFT.css"
 import NFTStar from "../Assets/NFTStar.png";
 
 const NFT = (props) => {
+
+    let shade = props.showConnect ? "none" : ""
+
+    const styles = {
+        background: shade
+    }
+
     return ( 
-        <div className="nft">
+        <div className="nft" style={styles}>
             <img src={props.imagee} alt="NFT" />
             <div className="nftTop">
                 <span>Desert king</span>

@@ -4,9 +4,16 @@ import WalletMetaMask from "../Assets/WalletMetaMask.png";
 import WalletWalletConnect from "../Assets/WalletWalletConnect.png";
 import WalletNext from "../Assets/WalletNext.png";
 
-const Connect = () => {
+const Connect = (props) => {
+
+    let show = props.showConnect ? "flex" : "none"
+
+    const styles = {
+        display: show
+    }
+
     return ( 
-        <div className="connect">
+        <div className="connect" style={styles}>
             <div className="connectHeader">
                 <span>Connect Wallet</span>
                 <img src={WalletX} alt="" />

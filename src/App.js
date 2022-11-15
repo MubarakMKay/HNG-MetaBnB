@@ -1,7 +1,6 @@
 import './Styles/App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './Pages/Home';
-import ConnectWallet from './Pages/ConnectWallet';
 import Place from './Pages/Place';
 
 function App() {
@@ -10,7 +9,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home />} />
-          <Route path='/connectWallet' element={<ConnectWallet />} />
           <Route path='/place' element={<Place />} />
         </Routes>
       </BrowserRouter>

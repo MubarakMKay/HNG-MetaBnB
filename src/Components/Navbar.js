@@ -2,15 +2,15 @@ import "../Styles/Navbar.css"
 import { Link } from "react-router-dom";
 import NavbarMetaBnb from "../Assets/NavbarMetaBnb.png";
 
-const Navbar = () => {
+const Navbar = (props) => {
     return ( 
         <div className="navbar">
-            <Link to={"/"}><img src={ NavbarMetaBnb } alt="MetaBnb" /></Link>
+            <Link to={"/"} onClick={props.handleExit}><img src={ NavbarMetaBnb } alt="MetaBnb" /></Link>
             <div className="navbarButtons">
                 <nav className="navbarButtonsLarge">
                     <ul>
-                        <li><Link to={"/"}>Home</Link></li>
-                        <li><Link to={"/place"} >Place to stay</Link></li>
+                        <li onClick={props.handleExit}><Link to={"/"}>Home</Link></li>
+                        <li onClick={props.handleExit}><Link to={"/place"} >Place to stay</Link></li>
                         <li>NFTs</li>
                         <li>Community</li>
                     </ul>
@@ -24,7 +24,7 @@ const Navbar = () => {
                         <li>Community</li>
                     </ul>
                 </nav>
-                <Link to={"/connectWallet"} ><input type="button" value="Connect wallet"/></Link> 
+                <input type="button" value="Connect wallet" onClick={props.handleClick}/>
             </div>
         </div>
      );
