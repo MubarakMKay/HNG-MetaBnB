@@ -26,7 +26,7 @@ const Home = () => {
 
     return ( 
         <div className="home" style={styles}>
-            <Connect showConnect={showConnect}/>
+            <Connect showConnect={showConnect} handleExit={handleExit}/>
             <Navbar handleClick={handleClick} handleExit={handleExit}/>
             <SectionOne />
             <SectionTwo />

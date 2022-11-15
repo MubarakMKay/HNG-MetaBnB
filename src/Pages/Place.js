@@ -40,7 +40,7 @@ const Place = () => {
 
     return ( 
         <div className="place" style={styles}>
-            <Connect showConnect={showConnect}/>
+            <Connect showConnect={showConnect} handleExit={handleExit}/>
             <Navbar handleClick={handleClick} handleExit={handleExit}/>
             <div className="placeText">
                 <nav>

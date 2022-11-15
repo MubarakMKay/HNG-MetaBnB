@@ -16,7 +16,7 @@ const Connect = (props) => {
         <div className="connect" style={styles}>
             <div className="connectHeader">
                 <span>Connect Wallet</span>
-                <img src={WalletX} alt="" />
+                <img src={WalletX} alt="" onClick={props.handleExit}/>
             </div>
             <div className="connectMain">
                 <span>Choose your preferred wallet:</span>
