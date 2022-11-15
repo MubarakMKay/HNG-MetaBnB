@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
     .sectionTwo {
         width: 83.7%;
         height: 70px;
@@ -8,6 +8,22 @@
         align-items: center;
         padding: 0 8.2%;
         background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .sectionTwo {
+        width: 83.7%;
+        height: 60px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 8.2%;
+        background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+    }
+    .sectionTwo img {
+        width: 25%;
     }
 }
 

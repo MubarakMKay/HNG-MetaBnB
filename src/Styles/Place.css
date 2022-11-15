@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1024px) {
     .place {
         max-width: 1440px;
         display: flex;
@@ -59,6 +59,76 @@
         column-gap: 24px;
         align-items: center;
         margin: 0px 7% 92px 7%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .place {
+        max-width: 768px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+    }
+    .placeText {
+        width: 86%;
+        margin: 50px 7%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;   
+    }
+    .placeText nav {
+        width: 75%;
+    }
+    .placeText ul {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;   
+    }
+    .placeText li {
+        list-style-type: none;
+        width: 25%;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 18px;
+        color: #434343;
+    }
+    .placeLocation {
+        background: linear-gradient(124.4deg, #FFFFFF 10.8%, #FFFFFF 87.34%);
+        border: 1px solid #B4B4B4;
+        border-radius: 8px;
+        height: 40px;
+        width: 15%;
+        min-width: 120px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;   
+    }
+    .placeLocation span {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #333333;
+    }
+    .placeNFTs {
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        row-gap: 15px;
+        align-items: center;
+        margin: 0px 5% 60px;
+    }
+    .placeNFTs .nft {
+        width: 48%;
     }
 }
 

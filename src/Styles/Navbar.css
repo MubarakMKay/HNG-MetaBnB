@@ -1,4 +1,4 @@
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1024px) {
     .navbar {
         width: 86%;
         display: flex;
@@ -32,6 +32,101 @@
         font-weight: 400;
         font-size: 20px;
         line-height: 25px;
+        color: #434343;
+    }
+    .navbarButtonsLarge a {
+        text-decoration: none;
+        color: #434343;
+        cursor: pointer;
+    }    
+    .navbarButtonsSmall {
+        display: none;        
+    }
+    .navbarButtonsSmall span {
+        font-size: xx-large;
+        cursor: pointer;
+    }
+    .navbarButtonsSmall ul {
+        display: none;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0;
+        margin: 0;
+    }    
+    .navbarButtonsSmall:hover ul {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 0;
+        margin: 0;
+    }    
+    .navbarButtonsSmall li {
+        list-style-type: none;
+        cursor: default;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        color: #434343;
+    }    
+    .navbarButtonsSmall a {
+        text-decoration: none;
+        color: #434343;
+        cursor: pointer;
+    }    
+    .navbarButtons input {
+        width: 20.14%;
+        height: 48px;
+        min-width: 130px;
+        background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+        border-radius: 10px;
+        font-weight: 400;
+        font-size: 85%;
+        line-height: 48px;
+        color: #FFFFFF;
+        border: 0;
+        padding: 0;
+        cursor: pointer;
+    }        
+}    
+
+@media screen and (max-width: 1024px) {
+    .navbar {
+        width: 86%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 43px 7%;
+    }    
+    .navbarButtons {
+        width: 65%;
+        display: flex;
+        flex-direction: row;
+        column-gap: 20px;
+        align-items: center;
+        justify-content: flex-end;
+    }  
+    .navbarButtonsLarge {
+        width: 57.93%;
+    }
+    .navbarButtonsLarge ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+    .navbarButtonsLarge li {
+        list-style-type: none;
+        cursor: default;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 20px;
         color: #434343;
     }
     .navbarButtonsLarge a {
