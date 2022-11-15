@@ -60,7 +60,7 @@
         width: 86%;
         display: flex;
         flex-direction: column;
-        row-gap: 50px;
+        row-gap: 30px;
         align-items: center;
         padding: 75px 7%;
         background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
@@ -113,9 +113,10 @@
     }
     .sectionFourImage {
         width: 100%;
+        text-align: center;
     }
     .sectionFourImage img {
-        width: 100%;
+        width: 70%;
     }
 }
 
